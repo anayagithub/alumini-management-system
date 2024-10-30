@@ -23,8 +23,13 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+       
+       <div className="absolute top-0 z-[-2] h-screen w-screen bg-gray-100 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(55,65,81,0.6),rgba(0,0,0,0))] min-h-screen">
+       {children}
+       </div>
+       
       </body>
     </html>
   );
 }
+
