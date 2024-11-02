@@ -3,7 +3,7 @@ import './Aboutus.css';
 
 const Aboutus = () => {
     return (
-        <div className="aboutus">
+        <div className="flex justify-center items-center bg-white w-11/12 max-w-7xl   p-10  shadow-lg overflow-y-auto mx-auto mt-5">
             <img src='/Images/aboutus.jpg' alt='About Us' className="aboutus-image" />
             <div className="aboutus-content">
                 <h1 className="aboutus-title">About Us</h1>

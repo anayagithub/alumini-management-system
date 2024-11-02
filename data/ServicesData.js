@@ -28,7 +28,6 @@ const servicesData = [
       image: "Images/community.jpg",
     },
        
-    // Add more services here as needed
   ];
   
   export default servicesData;
