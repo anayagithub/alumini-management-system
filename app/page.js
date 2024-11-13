@@ -2,6 +2,7 @@ import Services from "@/components/Services";
 import Aboutus from "@/components/Aboutus";
 import Gallery from "@/components/Gallery";
 import Contact from "@/components/Contact";
+import Index from "@/components/Index";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Aboutus />
       <Gallery/>
       <Contact />
+      <Index/>
     </div>
   );
 }
