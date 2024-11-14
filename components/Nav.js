@@ -1,23 +1,27 @@
 import React from 'react';
-import "./Nav.css"
+import "./Nav.css";
 
-const Nav = () => {
+const Nav = ({ setCurrentPage }) => {
   return (
     <div>
-			<nav className="navbar">
-		<div className="navdiv">
-			<div className="logo"><a href="#">ALUMINI MANAGEMENT</a> </div>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Contact</a></li>
-				<li><a href="#">Services</a></li>
-				<button><a href="#">SignUp</a></button>
-			</ul>
-		</div>
-	</nav>
-	</div>
-  )
-}
+      <nav className="navbar">
+        <div className="navdiv">
+          <div className="logo">
+            <a href="#">ALUMNI MANAGEMENT</a>
+          </div>
+          <ul>
+            <li><a href="#" onClick={() => setCurrentPage("home")}>Home</a></li>
+            <li><a href="#" onClick={() => setCurrentPage("about")}>About</a></li>
+            <li><a href="#" onClick={() => setCurrentPage("contact")}>Contact</a></li>
+            <li><a href="#" onClick={() => setCurrentPage("services")}>Services</a></li>
+            <button onClick={() => setCurrentPage("login")}>
+              <a href="#">Login</a> {/* Navigate to Login Page */}
+            </button>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  );
+};
 
-export default Nav
+export default Nav;
