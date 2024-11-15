@@ -6,7 +6,8 @@ import Aboutus from "@/components/Aboutus";
 import Contact from "@/components/Contact";
 import Gallery from '@/components/Gallery';
 import Nav from '@/components/Nav'; 
-import Login from "@/components/Login";  
+import Login from "@/components/Login"; 
+import Index from '@/components/Index'; 
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState("home"); // Start on the "home" page by default
@@ -23,6 +24,7 @@ export default function App() {
           <Aboutus />
           <Gallery />
           <Contact />
+          <Index/>
           {/* Gallery rendered on home page */}
         </div>
       ) : (

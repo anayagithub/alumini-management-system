@@ -15,9 +15,9 @@ const servicesData = [
     },
     {
       id: 3,
-      title: "Alumni Meets",
+      title: "Reunion Reminiscence",
       description:
-        "We invite you to re-visit the campus and re-acquaint yourself with former classmates during Reunion celebrations.",
+        "Capture the essence of looking back at cherished moments from the reunion and Evoke a sense of nostalgia with us",
       image: "Images/Alumni-meet.jpg",
     },
     {
