@@ -1,0 +1,79 @@
+/* General Styles for Body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Section */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-about, .footer-links, .footer-social {
+    width: 30%;
+}
+
+.footer-about h3, .footer-links h3, .footer-social h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.footer-about p {
+    font-size: 1em;
+}
+
+.footer-links ul, .footer-social a {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+
+.footer-links a, .footer-social a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-links a:hover, .footer-social a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+}
