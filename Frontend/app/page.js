@@ -1,11 +1,19 @@
+
+"use client";
+import React, { useState } from 'react';
 import Services from "@/components/Services";
 import Aboutus from "@/components/Aboutus";
-import Gallery from "@/components/Gallery";
 import Contact from "@/components/Contact";
+import Gallery from '@/components/Gallery';
+import Nav from '@/components/Nav'; 
+import Login from "@/components/Login"; 
+import Index from '@/components/Index'; 
 
-export default function Home() {
+export default function App() {
+  const [currentPage, setCurrentPage] = useState("home"); // Start on the "home" page by default
+
   return (
-    <div className="h-screen bg-gray-200 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(55,65,81,0.6),rgba(0,0,0,0))]">
+    <div className="h-screen">
       <Services />
       <Aboutus />
       <Gallery/>
@@ -13,3 +21,4 @@ export default function Home() {
     </div>
   );
 }
+
