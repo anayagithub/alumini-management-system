@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/components/Nav.css"],"sourcesContent":["*{\r\n    text-decoration: none;\r\n}\r\n.navbar{\r\n    background: rgb(101, 62, 179); font-family: calibri; padding-right: 20px;padding-left: 150px; position: sticky ; top : 0 ;\r\n}\r\n.navdiv{\r\n    display: flex; align-items: center; justify-content: space-between;\r\n}\r\n.logo a{\r\n    font-size: 40px; font-weight: 600; color: rgb(172, 177, 185);\r\n}\r\nli{\r\n    list-style: none; display: inline-block;\r\n}\r\nli a{\r\n    color: white; font-size: 18px; font-weight: bold; margin-right: 25px;\r\n}\r\nbutton{\r\n    background-color: black; margin-left: 10px; border-radius: 90px; padding: 10px; width: 100px;\r\n}\r\nbutton a{\r\n    color: white; font-weight: bold; font-size: 15px;\r\n}"],"names":[],"mappings":"AAAA;;;;AAGA;;;;;;;;;AAGA;;;;;;AAGA;;;;;;AAGA;;;;;AAGA;;;;;;;AAGA;;;;;;;;AAGA"}},
+    {"offset": {"line": 51, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

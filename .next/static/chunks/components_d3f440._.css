@@ -1,0 +1,181 @@
+/* [project]/components/Aboutus.css [app-client] (css) */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.aboutus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  padding: 40px;
+  margin: 0 288px;
+  box-shadow: 0 4px 8px #0000001a;
+}
+
+@media (width <= 1200px) {
+  .aboutus {
+    margin: 0 40px;
+  }
+}
+
+.aboutus-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding-right: 40px;
+}
+
+.aboutus-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.aboutus-content {
+  flex: 2;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.aboutus-title {
+  color: #000;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.aboutus-description {
+  color: #555;
+  font-size: 18px;
+  letter-spacing: .02em;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.aboutus-button {
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #0000;
+  font-weight: bold;
+  padding: 12px 25px;
+  border-radius: 20px;
+  transition: all .4s;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.aboutus-button:hover {
+  background: none;
+  border: 2px solid #000;
+  cursor: pointer;
+  color: #000;
+}
+
+@media (width <= 768px) {
+  .aboutus {
+    height: auto;
+  }
+
+  .aboutus-image-container {
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .aboutus-title {
+    font-size: 2rem;
+  }
+
+  .aboutus-description {
+    font-size: 16px;
+  }
+}
+
+
+/* [project]/components/Contact.css [app-client] (css) */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.contactUs {
+  height: 100vh auto;
+  width: 91%;
+  margin: 60px auto;
+  margin-bottom: 50px auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 1px 1px 10px #00000080;
+}
+
+.contactUs h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 450;
+  margin-bottom: 20px;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactInfo {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.infoItem {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.infoItem i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.contactForm {
+  flex: 1;
+}
+
+.contactForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactForm input, .contactForm textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contactForm textarea {
+  height: 100px;
+}
+
+.contactForm button {
+  padding: 10px;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contactForm button:hover {
+  background: #0056b3;
+}
+
+
+/*# sourceMappingURL=components_d3f440._.css.map*/

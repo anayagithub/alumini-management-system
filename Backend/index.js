@@ -3,7 +3,7 @@ import { configDotenv } from "dotenv";
 import mongoose, { mongo } from "mongoose";
 configDotenv();
 const app=express();
-const PORT=process.env.PORT || 3000;
+const PORT=process.env.PORT || 4000;
 
 const connectDB= async()=>{
     try {

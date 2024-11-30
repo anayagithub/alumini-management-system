@@ -1,0 +1,102 @@
+/* [project]/components/Aboutus.css [app-client] (css) */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.aboutus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  padding: 40px;
+  margin: 0 288px;
+  box-shadow: 0 4px 8px #0000001a;
+}
+
+@media (width <= 1200px) {
+  .aboutus {
+    margin: 0 40px;
+  }
+}
+
+.aboutus-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding-right: 40px;
+}
+
+.aboutus-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.aboutus-content {
+  flex: 2;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.aboutus-title {
+  color: #000;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.aboutus-description {
+  color: #555;
+  font-size: 18px;
+  letter-spacing: .02em;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.aboutus-button {
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #0000;
+  font-weight: bold;
+  padding: 12px 25px;
+  border-radius: 20px;
+  transition: all .4s;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.aboutus-button:hover {
+  background: none;
+  border: 2px solid #000;
+  cursor: pointer;
+  color: #000;
+}
+
+@media (width <= 768px) {
+  .aboutus {
+    height: auto;
+  }
+
+  .aboutus-image-container {
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .aboutus-title {
+    font-size: 2rem;
+  }
+
+  .aboutus-description {
+    font-size: 16px;
+  }
+}
+
+
+/*# sourceMappingURL=components_Aboutus_a927d8.css.map*/

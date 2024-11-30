@@ -1,0 +1,53 @@
+/* [project]/components/Nav.css [app-client] (css) */
+* {
+  text-decoration: none;
+}
+
+.navbar {
+  background: #653eb3;
+  font-family: calibri;
+  padding-right: 20px;
+  padding-left: 150px;
+  position: sticky;
+  top: 0;
+}
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a {
+  font-size: 40px;
+  font-weight: 600;
+  color: #acb1b9;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+
+button {
+  background-color: #000;
+  margin-left: 10px;
+  border-radius: 90px;
+  padding: 10px;
+  width: 100px;
+}
+
+button a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=components_Nav_b52d8e.css.map*/
