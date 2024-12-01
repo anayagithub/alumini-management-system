@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 
-const Membership = () => {
+const Membership = ({onBack}) => {
   const [members, setMembers] = useState([]);
   const [search, setSearch] = useState("");
 
@@ -103,7 +103,7 @@ const Membership = () => {
         <div className="space-y-6">
           {filteredMembers.map((member, index) => (
             <div
-              key={member.id}
+              key={index}
               className="flex items-center p-4 bg-gray-100 rounded-lg shadow-md"
             >
               <div className="w-12 h-12 bg-blue-500 text-white flex items-center justify-center rounded-full font-semibold text-xl">
@@ -120,7 +120,7 @@ const Membership = () => {
       </div>
 
       <button
-        onClick={() => window.history.back()} // Navigate back to the previous page
+        onClick={onBack} // Navigate back to the previous page
         className="bg-blue-500 text-white px-6 py-2 rounded-md mb-6 mx-auto block"
       >
         Back to Home

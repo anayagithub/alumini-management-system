@@ -404,7 +404,7 @@ const Login = ({ setCurrentPage }) => {
                   onClick={() => setIsLogin(true)}
                   className="text-blue-500 hover:underline"
                 >
-                  Sign In
+                  Login
                 </a>
               </p>
             </div>

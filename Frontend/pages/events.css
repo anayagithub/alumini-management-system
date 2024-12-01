@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif; /* Modern font */
+}
+
+.AppHeader {
+  background: linear-gradient(to right, #4b6cb7, #182848); /* Gradient background */
+  padding: 20px; /* Padding */
+  color: white;
+  border-bottom: 5px solid #ffffff; /* Border for sleek transition */
+  display: flex; /* Flexbox layout */
+  justify-content: space-between; /* Space between logo and links */
+  align-items: center; /* Align items vertically */
+}
+
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.NewsEventsList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px; /* Increased margin */
+}
+
+.NewsEventCard {
+  margin: 20px; /* Increased margin */
+  padding: 20px; /* Increased padding */
+  width: 75%; /* Adjusted width */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  transition: transform 0.3s, box-shadow 0.3s; /* Hover effects */
+  text-align: left; /* Left-align text for readability */
+}
+
+.NewsEventCard:nth-child(even) {
+  background-color: #e3f2fd; /* Light blue for even items */
+}
+
+.NewsEventCard:nth-child(odd) {
+  background-color: #fef9c3; /* Light yellow for odd items */
+}
+
+.NewsEventCard:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.NewsEventCard h2 {
+  color: #333;
+  margin-bottom: 10px; /* Space below the title */
+}
+
+.NewsEventCard p {
+  color: #555;
+  margin-bottom: 5px; /* Space below each paragraph */
+}
+
+.NewsEventCard p strong {
+  color: #000; /* Bold for strong elements */
+}
+
