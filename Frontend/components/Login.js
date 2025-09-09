@@ -315,7 +315,8 @@ const Login = ({ setCurrentPage }) => {
 
             <div className="w-full text-center mt-6 text-gray-600">
               <p>
-                Don't have an account?{" "}
+                <p>Don&apos;t have an account?</p>
+
                 <a
                   href="#"
                   onClick={() => setIsLogin(false)}

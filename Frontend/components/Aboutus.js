@@ -12,7 +12,7 @@ const Aboutus = () => {
                     where alumni can connect, share experiences, and support one another. Our platform makes 
                     it easy to create profiles, network, and access exclusive resources like job postings 
                     and event notifications. Join us to celebrate achievements, foster collaboration, and 
-                    give back to your alma mater. Let's keep the spirit of our educational journey alive 
+                    give back to your alma mater. Let&apos;s keep the spirit of our educational journey alive 
                     and thrive together!
                 </p>
                 <button type="button" className="aboutus-button">Contact Us</button>
