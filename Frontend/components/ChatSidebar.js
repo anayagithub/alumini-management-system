@@ -17,7 +17,7 @@ const ChatSidebar = () => {
       timeStamp: "today",
     },
     {
-      name: "Aest#3",
+      name: "Test#3",
       lastMssg: "Last Massage #3",
       timeStamp: "yesterday",
     },

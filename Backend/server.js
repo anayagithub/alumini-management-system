@@ -14,7 +14,7 @@ const port = 5000;
 
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
-    cb(null, 'uploads/');  // Ensure this path points to the correct uploads directory
+    cb(null, '/uploads');  // Ensure this path points to the correct uploads directory
   },
   filename: (req, file, cb) => {
     cb(null, Date.now() + '-' + file.originalname);
@@ -37,7 +37,7 @@ app.get('/images', async (req, res) => {
   res.json(images);
 });
 
-app.post('/upload', upload.single('image'), async (req, res) => {
+app.post('/uploads', upload.single('image'), async (req, res) => {
   const newImage = new Image({ path: req.file.path, originalName: req.file.originalname });
   await newImage.save();
   res.json(newImage);
