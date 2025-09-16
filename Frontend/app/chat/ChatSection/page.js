@@ -3,7 +3,7 @@ import React from "react";
 import MessagerOther from "@/components/MessagerOther";
 import MessageSelf from "@/components/MessageSelf";
 
-const ChatMain = ({ name = "Anaya", timeStamp = "today" }) => {
+const ChatMain = ({ name = "Ifra", timeStamp = "today" }) => {
   return (
     <div className="flex flex-col flex-[0.7] rounded-lg h-full ">
       <div className="bg-white p-3 m-2 rounded-lg border-2 border-slate-500 flex items-center">
